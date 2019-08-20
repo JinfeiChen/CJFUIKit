@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
                         应用于iOS工程中，使用：eg. 创建UIView子类继承于CJFUIView
                        DESC
 
-  s.homepage         = 'https://github.com/jinfei_chen@icloud.com/CJFUIKit'
+  s.homepage         = 'https://github.com/JinfeiChen/CJFUIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jinfei_chen@icloud.com' => 'jinfei_chen@icloud.com' }
-  s.source           = { :git => 'https://github.com/jinfei_chen@icloud.com/CJFUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JinfeiChen/CJFUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
