@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		09551419651E55369A8E55FF /* Pods-CJFUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJFUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CJFUIKit_Tests/Pods-CJFUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0A00C4D5150A88C906E025A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A00C4D5150A88C906E025A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,9 +28,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		9ACC0F49F68275A93046E23F /* Pods_CJFUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJFUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBD2F3B934C0927C3E675F35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BBD2F3B934C0927C3E675F35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CB057EF6A53D4D2D1D8258BA /* Pods-CJFUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJFUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CJFUIKit_Tests/Pods-CJFUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF792C3108448EFEDC9C3BB0 /* CJFUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CJFUIKit.podspec; path = ../CJFUIKit.podspec; sourceTree = "<group>"; };
+		FF792C3108448EFEDC9C3BB0 /* CJFUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CJFUIKit.podspec; path = ../CJFUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				09551419651E55369A8E55FF /* Pods-CJFUIKit_Tests.debug.xcconfig */,
 				CB057EF6A53D4D2D1D8258BA /* Pods-CJFUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
